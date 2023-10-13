@@ -11,7 +11,7 @@ public class Usuario {
         this.password = password;
     }
     public String toString() {
-        return "User{login= " + login + "/password= " + password; 
+        return "User{Id= "+ id + "/login= " + login + "/password= " + password + "}"; 
     }
     public Integer getId() {
         return id;
